@@ -16,25 +16,25 @@ class MotionUploader:
         config = ConfigParser.ConfigParser()
         config.read(config_file_path)
         
-        # GMail account credentials
+        # GMail kasutaja andmed
         self.username = config.get('gmail', 'user')
         self.password = config.get('gmail', 'password')
         self.from_name = config.get('gmail', 'name')
         self.sender = config.get('gmail', 'sender')
         
-        # Recipient email address (could be same as from_addr)
+        # Saaja email aadress (could be same as from_addr)
         self.recipient = config.get('gmail', 'recipient')        
         
-        # Subject line for email
+        # Emaili pealkiri
         self.subject = config.get('gmail', 'subject')
         
-        # First line of email message
+        # Emaili sõnum
         self.message = config.get('gmail', 'message')
                 
-        # Folder (or collection) in Docs where you want the videos to go
+        # Google Docsis kaust kuhu videod salvestuvad
         self.folder = config.get('docs', 'folder')
         
-        # Options
+        # Valikud
         self.delete_after_upload = config.getboolean('options', 'delete-after-upload')
         self.send_email = config.getboolean('options', 'send-email')
         
