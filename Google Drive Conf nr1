@@ -22,7 +22,7 @@ class MotionUploader:
         self.from_name = config.get('gmail', 'name')
         self.sender = config.get('gmail', 'sender')
         
-        # Saaja email aadress (could be same as from_addr)
+        # Saaja email aadress (võib olla sama mis saatja aadress)
         self.recipient = config.get('gmail', 'recipient')        
         
         # Emaili pealkiri
