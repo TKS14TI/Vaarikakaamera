@@ -16,19 +16,19 @@ sender = tim.klampe@gmail.com
 
 # email kes saab teate
 
-recipient = kean.walmsley@autodesk.com
+recipient = tim.klampe@gmail.com
 
  
 
 # Pealkiri meili saamisel
 
-subject = You have a visitor
+subject = Keegi liigub
 
  
 
 # Esimene emaili rida
 
-message = See attachment. Video of visitor uploaded to:
+message = Vaata, kes liikus - siin on video:
 
  
 
