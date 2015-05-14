@@ -7,3 +7,5 @@ oma wifi võrgu.
 Bootimise ajal ühendab raspberry automaatselt ennast, programmiga loodud wifi võrku.
 1 conf on selle jaoks, et motion töötaks.
 Kaks teist on selle jaoks, et kui kaamera tuvastab liikumise, et edastatakse google drive'i.
+Google drive on ühendatud ka arvutiga. Kui video link on google drive´s, siis saab selle faili ka arvutisse.
+Selle jaoks on alla tõmmatud eraldi Google Drive. Et see leida liigud Computer/Local Disk/Users/USERNAME/GoogleDrive
