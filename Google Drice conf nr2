@@ -1,0 +1,53 @@
+
+
+[gmail]
+
+# GMail account credentials
+
+name = Tim Klampe
+
+user = tim.klampe@gmail.com
+
+password = 'siin on minu parool'
+
+sender = tim.klampe@gmail.com
+
+ 
+
+# email kes saab teate
+
+recipient = kean.walmsley@autodesk.com
+
+ 
+
+# Pealkiri meili saamisel
+
+subject = You have a visitor
+
+ 
+
+# Esimene emaili rida
+
+message = See attachment. Video of visitor uploaded to:
+
+ 
+
+[docs]
+
+# Kaust kuhu sa tahad, et videod lähevad (Docs)
+
+folder = motion
+
+ 
+
+[options]
+
+# Kustuta kohalik fail peale üleslaadimist
+
+delete-after-upload = true
+
+ 
+
+# Saada email peale üleslaadimist
+
+send-email = true
