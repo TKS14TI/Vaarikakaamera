@@ -1,2 +1,9 @@
 # Vaarikakaamera
 Valvekaamera süsteem Raspberry Pi-ga (Security Webcam system with webcam syncronized with Google Drive)
+
+Projekt valvekaamera süsteem Raspberry Pi kaudu. Veebikaamera on ühendatud Raspberry Pi-ga.
+Arvutiga oleme kooli võrgus. Aga, et asi jookseks paremeni ja teisiti, siis installisime mHotspoti, millega lõime arvutist
+oma wifi võrgu. 
+Bootimise ajal ühendab raspberry automaatselt ennast, programmiga loodud wifi võrku.
+1 conf on selle jaoks, et motion töötaks.
+Kaks teist on selle jaoks, et kui kaamera tuvastab liikumise, et edastatakse google drive'i.
